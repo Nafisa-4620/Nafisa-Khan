@@ -1,0 +1,114 @@
+/* Global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+width: 90%;
+margin:auto ;
+}
+/* Header Part */
+#header{
+width: 100%;
+float: left;
+padding: 15px 10px;
+}
+.logo-part{
+width: 25%;
+float: left;
+}
+.logo-part a img{
+width: 55%;
+}
+.menu-part{
+width: 50%;
+float: left;
+}
+.menu-part nav{
+margin: 18px 50px;
+}
+.menu-part nav ul{
+
+}
+.menu-part nav ul li{
+display: inline-block;
+margin: 0px 25px;
+}
+.menu-part nav ul li a{
+text-decoration: none;
+color: black;
+font-weight: 700;
+font-size: 20px;
+}
+.search-part{
+width: 25%;
+float: left;
+}
+.search-part input{
+padding: 8px;
+margin: 12px;
+border-radius: 20px;
+border: 2px solid black;
+}
+.search-part input::placeholder{
+text-align: right;
+font-size: 17px;
+}
+.search-part i{
+font-size: 25px;
+display: inline-block;
+margin: 10px;
+}
+/*Hero section*/
+#hero{
+width: 100%;
+float: left;
+background: url(./img/bg\ \(1\).png) no-repeat center;
+background-size: cover;
+padding: 50px 0px;
+}
+.hero-writting-part{
+    width: 50%;
+    float: left;
+    padding-top: 150px;
+}
+.hero-writting-part h1{
+color: #00b9a0;
+font-size: 30px;
+}
+.hero-writting-part h2{
+color: white;
+font-size: 50px;
+line-height: 53px;
+}
+.hero-writting-part p{
+max-width: 400px;
+color: white;
+font-size: 18px;
+margin: 50px 0px;
+}
+.hero-writting-part a button{
+background: transparent;
+color: white;
+padding: 10px;
+width: 150px;
+border: 2px solid white;
+border-radius: 20px;
+}
+.hero-images{
+margin-top: 33px;
+    }
+.hero-images img{
+width: 70px;
+margin-right: 20px;
+}
+.hero-img-part{
+width: 50%;
+float: left;
+text-align: center;
+margin-top: 80px;
+}
+.hero-img-part img{
+width: 60%;
+}
